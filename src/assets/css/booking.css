@@ -1,0 +1,68 @@
+.booking{
+    text-align: center;
+    box-shadow: 2px 2px 10px #e8e8e8;
+    border-radius: 15px;
+    border: 1px solid #e8e8e8;
+}
+
+.booking .top{
+    border: 1px solid #efefef;
+    padding: 10px 0;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.booking .top .left{
+    float: left;
+    padding-top: 5px;
+}
+
+.booking .top .left i{
+    color: #15c09e;
+    padding-right: 7px;
+}
+
+.booking .top h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.booking .top .right{
+    justify-content: flex-end;
+}
+
+.booking .right .icon a{
+
+}
+
+.booking .right .icon i{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.booking .main{
+    padding: 20% 0;
+    justify-content: center;
+}
+
+.booking .main .calendar-color{
+    font-size: 100px;
+    color: var(--color-gry);
+}
+
+.booking .main h4{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.booking .main p{
+    font-size: 13px;
+    color: #9c9c9c;
+    padding: 0px 12%;
+}
+
+.booking .main .buttons button i{
+    font-size: 13px;
+    padding-right: 10px;
+    color: #009999;
+}

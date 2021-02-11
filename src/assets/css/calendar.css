@@ -1,0 +1,61 @@
+.calendar{
+    text-align: center;
+    box-shadow: 2px 2px 10px #e8e8e8;
+    border-radius: 15px;
+    border: 1px solid #e8e8e8;
+}
+
+.calendar .top{
+    border: 1px solid #efefef;
+    padding: 10px 0;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.calendar .top .left{
+    float: left;
+    padding-top: 5px;
+}
+
+.calendar .top .left i{
+    color: #15c09e;
+    padding-right: 7px;
+}
+
+.calendar .top .left h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.calendar .top .center{
+   
+}
+
+.calendar .top .center a{
+   
+}
+
+.calendar .top .center i{
+   
+}
+
+.calendar .top .center select{
+    width: 30%;
+}
+
+.calendar .top .center button{
+   
+}
+
+.calendar .top .right{
+    justify-content: flex-end;
+}
+
+.calendar .right .icon a{
+
+}
+
+.calendar .right .icon i{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}

@@ -1,0 +1,139 @@
+.list-today{
+    text-align: center;
+    box-shadow: 2px 2px 10px #e8e8e8;
+    border-radius: 15px;
+    border: 1px solid #e8e8e8;
+}
+
+.list-today .top{
+    border: 1px solid #efefef;
+    padding: 10px 0;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.list-today .top .left{
+    float: left;
+    padding-top: 5px;
+}
+
+.list-today .top .left i{
+    color: #15c09e;
+    padding-right: 7px;
+}
+
+.list-today .top h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-today .top .center{
+    display: block;
+    margin: auto;
+}
+
+.list-today .top .center span{
+    padding: 1px 3px;
+    border-radius: 10px;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.list-today .top .right{
+    justify-content: flex-end;
+}
+
+.list-today .right .icon i{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.list-today .bar{
+    background-color: #32373d;
+    padding: 8px 0;
+}
+
+.list-today .bar h5{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.list-today .main{
+    /* padding: 15px 0; */
+}
+
+.list-today .main .booking-details{
+    padding: 14px 0;
+}
+
+.list-today .main .booking-details img{
+    width: 70%;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.list-today .main .booking-details h6{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.list-today .main .booking-details a{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.list-today .main .buttons{
+    float: right;
+    padding: 14px 0;
+    visibility: hidden;
+}
+
+.main:hover .buttons{
+    visibility: visible;
+}
+
+.list-today .main .buttons a{
+    color: #f92a2a;
+    font-size: 14px;
+    padding: 7px 10px 0px 0;
+}
+
+.list-today .main .date-time{
+    float: right;
+    width: 55%;
+}
+
+.list-today .date-time .grey{
+    background-color: #e6e6e6;
+}
+
+.list-today .date-time .grey span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.list-today .date-time .grey p{
+    color: gray;
+    font-size: 15px;
+}
+
+.list-today .date-time .green{
+    background-color: #34c2a6;
+}
+
+.list-today .date-time .green span{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+.list-today .date-time .green p{
+    color: #f1f1f1;
+    font-size: 15px;
+}
