@@ -1,10 +1,7 @@
 import React from 'react';
-import '../assets/css/calendar.css';
+import '../../assets/css/booking.css';
 
-import FullCalendar from '@fullcalendar/react'
-import dayGridPlugin from '@fullcalendar/daygrid'
-
-class Calendar extends React.Component {
+class Booking extends React.Component {
 
     constructor(props) {
         super(props);
@@ -13,10 +10,10 @@ class Calendar extends React.Component {
             data: [],
             loading: false
         };
-    } 
+    }
 
     componentDidMount() {
-        console.log("Calendar");
+        console.log("Booking");
 
         this.setState({
             loading: true
@@ -24,42 +21,22 @@ class Calendar extends React.Component {
     }
 
     render() {
-        return(
+        return (
             <div>
-                <div className="calendar">
+                <div className="booking">
                     <div className="container">
                         <div className="row justify-content-center">
 
                             <div className="col-12 col-md-12 col-lg-12">
                                 <div className="row top">
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-5 col-lg-5">
                                         <div className="left">
                                             <h2><i class="fas fa-bolt"></i>Booking</h2>
                                         </div>
                                     </div>
 
-                                    {/* <div className="col-12 col-md-5 col-lg-5">
-                                        <div className="row center">
-                                            <a href="#"><i class="fas fa-angle-left"></i></a>
-
-                                            <select class="form-control">
-                                                <option selected>May, 2020</option>
-                                                <option value="1">August, 2020</option>
-                                                <option value="2">january, 2021</option>
-                                            </select>
-
-                                            <div class="btn-group" role="group">
-                                                <button type="button" class="btn btn-secondary">MONTH</button>
-                                                <button type="button" class="btn btn-secondary">WEEK</button>
-                                                <button type="button" class="btn btn-secondary">DAY</button>
-                                            </div>
-
-                                            <a href="#"><i class="fas fa-angle-right"></i></a>
-                                        </div>
-                                    </div> */}
-
-                                    <div className="col-12 col-md-8 col-lg-8">
+                                    <div className="col-12 col-md-7 col-lg-7">
                                         <div className="row right">
                                            <div className="col-md-5">
                                                 <select class="form-control">
@@ -81,12 +58,20 @@ class Calendar extends React.Component {
                                 </div>
                             </div>
 
-                            <div className="col-12 col-md-12 col-lg-12">
-                               <div className="main py-4">
-                                    <FullCalendar
-                                        plugins={[ dayGridPlugin ]}
-                                        initialView="dayGridMonth"
-                                    />
+                            <div className="col-12 col-md-5 col-lg-5">
+                               <div className="main">
+                                    <i class="fas fa-calendar calendar-color"></i>
+                                    <h4 className="pt-4">No booking have been created.</h4>
+                                    <p className="pt-1">You can add a booking form to your site or manually create a booking from this page.</p>
+
+                                    <div className="buttons mt-4">
+                                        <button type="button" class="btn btn-primary px-3 mr-3">
+                                            <i class="fas fa-plus text-white"></i>Create a Booking
+                                        </button>
+                                        <button type="button" class="btn btn-light px-3">
+                                            <i class="fas fa-chart-line text-black"></i>Documentation
+                                        </button>
+                                    </div>
                                </div>
                             </div>
 
@@ -97,4 +82,4 @@ class Calendar extends React.Component {
         );
     }
 }
-export default Calendar;
+export default Booking;

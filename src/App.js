@@ -4,10 +4,13 @@ import './App.css';
 import Header from './layout/Header';
 // import Footer from './layout/Footer';
 import Home from './components/Home';
-import Booking from './components/Booking';
-import Calendar from './components/Calendar';
-import ListPanding from './components/ListPanding';
-import ListToday from './components/ListToday';
+import Booking from './components/Booking/Booking';
+import Calendar from './components/Booking/Calendar';
+import ListPanding from './components/Booking/ListPanding';
+import ListToday from './components/Booking/ListToday';
+import ListUpcoming from './components/Booking/ListUpcoming';
+import ListCompleted from './components/Booking/ListCompleted';
+
 
 import { 
   BrowserRouter as Router, 
@@ -61,6 +64,8 @@ class App extends React.Component {
                 <Route exact path={process.env.PUBLIC_URL + '/calendar'} component={Calendar}></Route>
                 <Route exact path={process.env.PUBLIC_URL + '/listpanding'} component={ListPanding}></Route>
                 <Route exact path={process.env.PUBLIC_URL + '/listtoday'} component={ListToday}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/listupcoming'} component={ListUpcoming}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/listcompleted'} component={ListCompleted}></Route>
               </Switch>
             </div>
   

@@ -1,13 +1,13 @@
 import React from 'react';
-import '../assets/css/listpanding.css';
+import '../../assets/css/listpanding.css';
 
-import image from '../assets/img/img.png'
-import image1 from '../assets/img/img1.jpg'
-import image2 from '../assets/img/img2.jpg'
-import image3 from '../assets/img/img3.jpg'
-import image4 from '../assets/img/img4.jpg'
-import image5 from '../assets/img/img5.jpg'
-import image6 from '../assets/img/img6.jpg'
+import image from '../../assets/img/img.png'
+import image1 from '../../assets/img/img1.jpg'
+import image2 from '../../assets/img/img2.jpg'
+import image3 from '../../assets/img/img3.jpg'
+import image4 from '../../assets/img/img4.jpg'
+import image5 from '../../assets/img/img5.jpg'
+import image6 from '../../assets/img/img6.jpg'
 
 class ListPanding extends React.Component {
 
@@ -389,7 +389,8 @@ class ListPanding extends React.Component {
                                         <div className="buttons">
                                             <div className="col-12 col-md-12 col-lg-12">
                                                 <div className="row">
-                                                    <a href="#">Cancle Booking</a>                                           
+                                                    <a href="#">Cancle Booking</a>          
+                                                    <button type="button" class="btn btn-primary px-3">Approve</button>                                 
                                                 </div>
                                             </div>
                                         </div>
@@ -434,7 +435,8 @@ class ListPanding extends React.Component {
                                         <div className="buttons">
                                             <div className="col-12 col-md-12 col-lg-12">
                                                 <div className="row">
-                                                    <a href="#">Cancle Booking</a>                                                
+                                                    <a href="#">Cancle Booking</a>  
+                                                    <button type="button" class="btn btn-primary px-3">Approve</button>                                              
                                                 </div>
                                             </div>
                                         </div>
@@ -455,7 +457,7 @@ class ListPanding extends React.Component {
                                 </div>
                             </div>
 
-                            <div className="col-12 col-md-12 col-lg-12 px-0 border-bottom">
+                            <div className="col-12 col-md-12 col-lg-12 px-0">
                                 <div className="row main">
 
                                     <div className="col-12 col-md-4 col-lg-4">

@@ -25,7 +25,7 @@
 
 .header .nav
 {
-    float: right;
+    /* float: right; */
     padding-top: 2%;
 }
 
@@ -33,11 +33,12 @@
 {
     list-style: none;
     display: flex;
+    margin-bottom: 0;
 }
 
 .header .nav li 
 {
-    padding: 0 15px;
+    padding: 0 5px;
     font-size: 13px;
     font-weight: bold;
 }

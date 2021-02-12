@@ -33,6 +33,8 @@ function Header() {
                                     <li><Link to={process.env.PUBLIC_URL + '/calendar'}>Calendar</Link></li>
                                     <li><Link to={process.env.PUBLIC_URL + '/listpanding'}>List Panding</Link></li>
                                     <li><Link to={process.env.PUBLIC_URL + '/listtoday'}>List Today</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/listupcoming'}>List Upcoming</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/listcompleted'}>List Completed</Link></li>
                                  </ul>
                             </div>
                         </div>
@@ -52,6 +54,8 @@ function Header() {
                     <li><Link to={process.env.PUBLIC_URL + '/calendar'} onClick={() => setMenuToggle(!menuToggle)}>Calendar</Link></li>
                     <li><Link to={process.env.PUBLIC_URL + '/listpanding'} onClick={() => setMenuToggle(!menuToggle)}>ListPanding</Link></li>
                     <li><Link to={process.env.PUBLIC_URL + '/listtoday'} onClick={() => setMenuToggle(!menuToggle)}>List Today</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/listupcoming'} onClick={() => setMenuToggle(!menuToggle)}>List Upcoming</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/listcompleted'} onClick={() => setMenuToggle(!menuToggle)}>List Completed</Link></li>
                 </div>
             </div>
         </div>
