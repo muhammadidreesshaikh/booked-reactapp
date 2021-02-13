@@ -50,22 +50,22 @@ class App extends React.Component {
             {/* all components */} 
             <div className="container">
               <Switch>
-                <Route exact path={process.env.PUBLIC_URL + '/'}>
-                  <Redirect to={process.env.PUBLIC_URL + '/login'} />
+                <Route exact path={'/'}>
+                  <Redirect to={'/login'} />
                 </Route>
   
                 <Route exact path="/">
-                  <Redirect to={process.env.PUBLIC_URL + '/login'} />
+                  <Redirect to={'/login'} />
                 </Route>
   
-                <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}></Route>
-                <Route exact path={process.env.PUBLIC_URL + '/home'} component={Home}></Route>
-                <Route exact path={process.env.PUBLIC_URL + '/booking'} component={Booking}></Route>
-                <Route exact path={process.env.PUBLIC_URL + '/calendar'} component={Calendar}></Route>
-                <Route exact path={process.env.PUBLIC_URL + '/listpanding'} component={ListPanding}></Route>
-                <Route exact path={process.env.PUBLIC_URL + '/listtoday'} component={ListToday}></Route>
-                <Route exact path={process.env.PUBLIC_URL + '/listupcoming'} component={ListUpcoming}></Route>
-                <Route exact path={process.env.PUBLIC_URL + '/listcompleted'} component={ListCompleted}></Route>
+                <Route exact path={'/'} component={Home}></Route>
+                <Route exact path={'/home'} component={Home}></Route>
+                <Route exact path={'/booking'} component={Booking}></Route>
+                <Route exact path={'/calendar'} component={Calendar}></Route>
+                <Route exact path={'/listpanding'} component={ListPanding}></Route>
+                <Route exact path={'/listtoday'} component={ListToday}></Route>
+                <Route exact path={'/listupcoming'} component={ListUpcoming}></Route>
+                <Route exact path={'/listcompleted'} component={ListCompleted}></Route>
               </Switch>
             </div>
   

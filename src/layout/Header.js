@@ -28,13 +28,13 @@ function Header() {
                         <div className="col-sm-8 col-md-8 col-lg-8">
                             <div className="nav">
                                  <ul>
-                                    <li><Link to={process.env.PUBLIC_URL + '/home'}>Home</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/booking'}>Booking</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/calendar'}>Calendar</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/listpanding'}>List Panding</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/listtoday'}>List Today</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/listupcoming'}>List Upcoming</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/listcompleted'}>List Completed</Link></li>
+                                    <li><Link to={'/home'}>Home</Link></li>
+                                    <li><Link to={'/booking'}>Booking</Link></li>
+                                    <li><Link to={'/calendar'}>Calendar</Link></li>
+                                    <li><Link to={'/listpanding'}>List Panding</Link></li>
+                                    <li><Link to={'/listtoday'}>List Today</Link></li>
+                                    <li><Link to={'/listupcoming'}>List Upcoming</Link></li>
+                                    <li><Link to={'/listcompleted'}>List Completed</Link></li>
                                  </ul>
                             </div>
                         </div>
@@ -49,13 +49,13 @@ function Header() {
                         </div>
                     </div>
 
-                    <li><Link to={process.env.PUBLIC_URL + '/home'} onClick={() => setMenuToggle(!menuToggle)}>Home</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/booking'} onClick={() => setMenuToggle(!menuToggle)}>Booking</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/calendar'} onClick={() => setMenuToggle(!menuToggle)}>Calendar</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/listpanding'} onClick={() => setMenuToggle(!menuToggle)}>ListPanding</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/listtoday'} onClick={() => setMenuToggle(!menuToggle)}>List Today</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/listupcoming'} onClick={() => setMenuToggle(!menuToggle)}>List Upcoming</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/listcompleted'} onClick={() => setMenuToggle(!menuToggle)}>List Completed</Link></li>
+                    <li><Link to={'/home'} onClick={() => setMenuToggle(!menuToggle)}>Home</Link></li>
+                    <li><Link to={'/booking'} onClick={() => setMenuToggle(!menuToggle)}>Booking</Link></li>
+                    <li><Link to={'/calendar'} onClick={() => setMenuToggle(!menuToggle)}>Calendar</Link></li>
+                    <li><Link to={'/listpanding'} onClick={() => setMenuToggle(!menuToggle)}>ListPanding</Link></li>
+                    <li><Link to={'/listtoday'} onClick={() => setMenuToggle(!menuToggle)}>List Today</Link></li>
+                    <li><Link to={'/listupcoming'} onClick={() => setMenuToggle(!menuToggle)}>List Upcoming</Link></li>
+                    <li><Link to={'/listcompleted'} onClick={() => setMenuToggle(!menuToggle)}>List Completed</Link></li>
                 </div>
             </div>
         </div>
