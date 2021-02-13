@@ -49,15 +49,7 @@ class App extends React.Component {
             
             {/* all components */} 
             <div className="container">
-              <Switch>
-                <Route exact path={'/'}>
-                  <Redirect to={'/login'} />
-                </Route>
-  
-                <Route exact path="/">
-                  <Redirect to={'/login'} />
-                </Route>
-  
+              <Switch>  
                 <Route exact path={'/'} component={Home}></Route>
                 <Route exact path={'/home'} component={Home}></Route>
                 <Route exact path={'/booking'} component={Booking}></Route>
