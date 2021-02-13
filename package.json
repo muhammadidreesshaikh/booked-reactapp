@@ -2,7 +2,6 @@
   "name": "booked-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://muhammadidreesshaikh.github.io/booked-reactapp",
   "dependencies": {
     "@fullcalendar/daygrid": "^5.5.0",
     "@fullcalendar/react": "^5.5.0",
