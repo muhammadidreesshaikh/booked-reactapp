@@ -18,7 +18,7 @@ class ListPanding extends React.Component {
             data: [],
             loading: false
         };
-    } 
+    }
 
     componentDidMount() {
         console.log("ListPanding");
@@ -29,56 +29,27 @@ class ListPanding extends React.Component {
     }
 
     render() {
-        return(
+        return (
             <div>
                 <div className="list">
                     <div className="container">
                         <div className="row">
 
-                            <div className="col-12 col-md-12 col-lg-12">
-                                <div className="row top">
-
-                                    <div className="col-12 col-md-2 col-lg-2">
-                                        <div className="left">
-                                            <h2><i class="fas fa-bolt"></i>Booking</h2>
+                            <div className="col-12">
+                                <div className="col-12 col-md-6 col-lg-6">
+                                    <div className="row center">
+                                        <div class="btn-group" role="group">
+                                            <button type="button" class="bg-primary btn btn-secondary px-3">PENDING <span>3</span> </button>
+                                            <button type="button" class="btn btn-secondary px-3">TODAY <span>6</span> </button>
+                                            <button type="button" class="btn btn-secondary px-3">UPCOMING <span>8</span> </button>
+                                            <button type="button" class="btn btn-secondary px-3">COMPLETED <span>3</span> </button>
                                         </div>
                                     </div>
-
-                                    <div className="col-12 col-md-6 col-lg-6">
-                                        <div className="row center">
-                                            <div class="btn-group" role="group">
-                                                <button type="button" class="bg-primary btn btn-secondary px-3">PENDING <span>3</span> </button>
-                                                <button type="button" class="btn btn-secondary px-3">TODAY <span>6</span> </button>
-                                                <button type="button" class="btn btn-secondary px-3">UPCOMING <span>8</span> </button>
-                                                <button type="button" class="btn btn-secondary px-3">COMPLETED <span>3</span> </button>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-12 col-md-4 col-lg-4">
-                                        <div className="row right">
-                                           <div className="col-md-7 px-0">
-                                                <select class="form-control">
-                                                    <option selected>All Services</option>
-                                                    <option value="1">All Payments</option>
-                                                    <option value="2">All Accounts</option>
-                                                </select>
-                                           </div>
-
-                                            <div className="col-md-4 px-0">
-                                                <div className="icon">
-                                                    <a href="#"><i class="far fa-calendar-alt btn-primary mr-2"></i></a>
-                                                    <a href="#"><i class="fas fa-plus btn-secondary"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>
 
                             <div className="col-12 col-md-12 col-lg-12">
-                               <div className="row bar">
+                                <div className="row bar">
                                     <div className="col-12 col-md-6 col-lg-6">
                                         <h5 className="float-left">BOOKING DETAILS</h5>
                                     </div>
@@ -86,7 +57,7 @@ class ListPanding extends React.Component {
                                     <div className="col-12 col-md-6 col-lg-6">
                                         <h5 className="float-right">DATE / TIME</h5>
                                     </div>
-                               </div>
+                                </div>
                             </div>
 
                             <div className="col-12 col-md-12 col-lg-12 px-0 border-bottom">

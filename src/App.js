@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import Header from './layout/Header';
+import AppHeader from './layout/AppHeader';
 // import Footer from './layout/Footer';
 import Home from './components/Home';
 import Booking from './components/Booking/Booking';
@@ -12,8 +13,8 @@ import ListUpcoming from './components/Booking/ListUpcoming';
 import ListCompleted from './components/Booking/ListCompleted';
 
 
-import { 
-  BrowserRouter as Router, 
+import {
+  BrowserRouter as Router,
   Route,
   Switch,
   Redirect
@@ -26,7 +27,7 @@ import {
 } from "./redux/actions/taskAction";
 
 class App extends React.Component {
-  
+
   constructor(props) {
     super(props);
 
@@ -46,10 +47,13 @@ class App extends React.Component {
       <Router>
         <div className="App">
           <Header />
-            
-            {/* all components */} 
-            <div className="container">
-              <Switch>  
+
+          {/* all components */}
+          <div className="container">
+            <div className="main-container">
+              <AppHeader />
+
+              <Switch>
                 <Route exact path={'/'} component={Home}></Route>
                 <Route exact path={'/home'} component={Home}></Route>
                 <Route exact path={'/booking'} component={Booking}></Route>
@@ -60,7 +64,8 @@ class App extends React.Component {
                 <Route exact path={'/listcompleted'} component={ListCompleted}></Route>
               </Switch>
             </div>
-  
+          </div>
+
           {/* <Footer /> */}
         </div>
       </Router>
@@ -74,7 +79,7 @@ const mapStateToProps = state => ({
 
 const mapDispacthToProps = dispatch => {
   return {
-    GetUsers: () => dispatch(GetUsers())    
+    GetUsers: () => dispatch(GetUsers())
   };
 
 };

@@ -1,0 +1,33 @@
+.app-header .top{
+    padding: 10px 0;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.app-header .top .left{
+    float: left;
+    padding-top: 5px;
+}
+
+.app-header .top .left i{
+    color: #15c09e;
+    padding-right: 7px;
+}
+
+.app-header .top h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.app-header .top .right{
+    justify-content: flex-end;
+}
+
+.app-header .right .icon a{
+
+}
+
+.app-header .right .icon i{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
