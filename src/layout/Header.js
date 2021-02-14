@@ -48,6 +48,7 @@ function Header() {
                             <a href="#"><i class="fas fa-dice-d20"></i></a>
                         </div>
                     </div>
+1
 
                     <li><Link to={'/home'} onClick={() => setMenuToggle(!menuToggle)}>Home</Link></li>
                     <li><Link to={'/booking'} onClick={() => setMenuToggle(!menuToggle)}>Booking</Link></li>

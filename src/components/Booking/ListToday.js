@@ -109,25 +109,17 @@ class ListToday extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-6 col-lg-6">
                                         <div className="buttons">
-                                            <div className="col-12 col-md-12 col-lg-12">
-                                                <div className="row">
-                                                    <a href="#">Cancle Booking</a>
-                                                </div>
-                                            </div>
+                                            <a href="#">Cancle Booking</a>
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-2 col-lg-2">
                                         <div className="date-time">
-                                            <div className="grey">
-                                                <div className="col-12 col-md-12 col-lg-12">
-                                                    <div className="py-3">
-                                                        <span>COMPLETED</span>
-                                                        <p>1:00-2:00pm</p>
-                                                    </div>
-                                                </div>
+                                            <div className="grey py-3">
+                                                <span>COMPLETED</span>
+                                                <p>1:00-2:00pm</p>
                                             </div>
                                         </div>
                                     </div>
@@ -154,25 +146,17 @@ class ListToday extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-6 col-lg-6">
                                         <div className="buttons">
-                                            <div className="col-12 col-md-12 col-lg-12">
-                                                <div className="row">
-                                                    <a href="#">Cancle Booking</a>                                               
-                                                </div>
-                                            </div>
+                                            <a href="#">Cancle Booking</a>
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-2 col-lg-2">
                                         <div className="date-time">
-                                            <div className="grey">
-                                                <div className="col-12 col-md-12 col-lg-12">
-                                                    <div className="py-3">
-                                                        <span>COMPLETED</span>
-                                                        <p>1:00-2:00pm</p>
-                                                    </div>
-                                                </div>
+                                            <div className="grey py-3">
+                                                <span>COMPLETED</span>
+                                                <p>1:00-2:00pm</p>
                                             </div>
                                         </div>
                                     </div>
@@ -199,25 +183,17 @@ class ListToday extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-6 col-lg-6">
                                         <div className="buttons">
-                                            <div className="col-12 col-md-12 col-lg-12">
-                                                <div className="row">
-                                                    <a href="#">Cancle Booking</a>                                            
-                                                </div>
-                                            </div>
+                                            <a href="#">Cancle Booking</a>
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-2 col-lg-2">
                                         <div className="date-time">
-                                            <div className="green">
-                                                <div className="col-12 col-md-12 col-lg-12">
-                                                    <div className="py-3">
-                                                        <span>Today</span>
-                                                        <p>3:00pm-6:00pm</p>
-                                                    </div>
-                                                </div>
+                                            <div className="green py-3">
+                                                <span>Today</span>
+                                                <p>3:00pm-6:00pm</p>
                                             </div>
                                         </div>
                                     </div>
@@ -244,25 +220,17 @@ class ListToday extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-6 col-lg-6">
                                         <div className="buttons">
-                                            <div className="col-12 col-md-12 col-lg-12">
-                                                <div className="row">
-                                                    <a href="#">Cancle Booking</a>                                           
-                                                </div>
-                                            </div>
+                                            <a href="#">Cancle Booking</a>
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-2 col-lg-2">
                                         <div className="date-time">
-                                            <div className="green">
-                                                <div className="col-12 col-md-12 col-lg-12">
-                                                    <div className="py-3">
-                                                        <span>Today</span>
-                                                        <p>3:00pm-5:00pm</p>
-                                                    </div>
-                                                </div>
+                                            <div className="green py-3">
+                                                <span>Today</span>
+                                                <p>3:00pm-5:00pm</p>
                                             </div>
                                         </div>
                                     </div>
@@ -289,25 +257,17 @@ class ListToday extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-6 col-lg-6">
                                         <div className="buttons">
-                                            <div className="col-12 col-md-12 col-lg-12">
-                                                <div className="row">
-                                                    <a href="#">Cancle Booking</a>                                                
-                                                </div>
-                                            </div>
+                                            <a href="#">Cancle Booking</a>
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-2 col-lg-2">
                                         <div className="date-time">
-                                            <div className="green">
-                                                <div className="col-12 col-md-12 col-lg-12">
-                                                    <div className="py-3">
-                                                        <span>Today</span>
-                                                        <p>9:00pm-5:00pm</p>
-                                                    </div>
-                                                </div>
+                                            <div className="green py-3">
+                                                <span>Today</span>
+                                                <p>9:00pm-5:00pm</p>
                                             </div>
                                         </div>
                                     </div>
@@ -334,25 +294,17 @@ class ListToday extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-6 col-lg-6">
                                         <div className="buttons">
-                                            <div className="col-12 col-md-12 col-lg-12">
-                                                <div className="row">
-                                                    <a href="#">Cancle Booking</a>                                           
-                                                </div>
-                                            </div>
+                                            <a href="#">Cancle Booking</a>
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-2 col-lg-2">
                                         <div className="date-time">
-                                            <div className="green">
-                                                <div className="col-12 col-md-12 col-lg-12">
-                                                    <div className="py-3">
-                                                        <span>Today</span>
-                                                        <p>4:00pm-8:00pm</p>
-                                                    </div>
-                                                </div>
+                                            <div className="green py-3">
+                                                <span>Today</span>
+                                                <p>4:00pm-8:00pm</p>
                                             </div>
                                         </div>
                                     </div>
@@ -379,25 +331,17 @@ class ListToday extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-6 col-lg-6">
                                         <div className="buttons">
-                                            <div className="col-12 col-md-12 col-lg-12">
-                                                <div className="row">
-                                                    <a href="#">Cancle Booking</a>                                                
-                                                </div>
-                                            </div>
+                                            <a href="#">Cancle Booking</a>
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-2 col-lg-2">
                                         <div className="date-time">
-                                            <div className="green">
-                                                <div className="col-12 col-md-12 col-lg-12">
-                                                    <div className="py-3">
-                                                        <span>Today</span>
-                                                        <p>3:00pm-6:00pm</p>
-                                                    </div>
-                                                </div>
+                                            <div className="green py-3">
+                                                <span>Today</span>
+                                                <p>3:00pm-6:00pm</p>
                                             </div>
                                         </div>
                                     </div>
@@ -424,70 +368,17 @@ class ListToday extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-6 col-lg-6">
                                         <div className="buttons">
-                                            <div className="col-12 col-md-12 col-lg-12">
-                                                <div className="row">
-                                                    <a href="#">Cancle Booking</a>                                           
-                                                </div>
-                                            </div>
+                                            <a href="#">Cancle Booking</a>
                                         </div>
                                     </div>
 
-                                    <div className="col-12 col-md-4 col-lg-4">
+                                    <div className="col-12 col-md-2 col-lg-2">
                                         <div className="date-time">
-                                            <div className="green">
-                                                <div className="col-12 col-md-12 col-lg-12">
-                                                    <div className="py-3">
-                                                        <span>Today</span>
-                                                        <p>3:00pm-5:00pm</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-12 col-md-12 col-lg-12 px-0">
-                                <div className="row main">
-
-                                    <div className="col-12 col-md-4 col-lg-4">
-                                        <div className="booking-details">
-                                            <div className="col-12 col-md-10 col-lg-10">
-                                                <div className="row">
-                                                    <div className="col-md-4">
-                                                        <img src={image4} />
-                                                    </div>
-
-                                                    <div className="col-md-8">
-                                                        <h6>Mary Jones</h6>
-                                                        <a href="#">Service Name Here</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-12 col-md-4 col-lg-4">
-                                        <div className="buttons">
-                                            <div className="col-12 col-md-12 col-lg-12">
-                                                <div className="row">
-                                                    <a href="#">Cancle Booking</a>                                                
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-12 col-md-4 col-lg-4">
-                                        <div className="date-time">
-                                            <div className="green">
-                                                <div className="col-12 col-md-12 col-lg-12">
-                                                    <div className="py-3">
-                                                        <span>Today</span>
-                                                        <p>9:00pm-5:00pm</p>
-                                                    </div>
-                                                </div>
+                                            <div className="green py-3">
+                                                <span>Today</span>
+                                                <p>3:00pm-5:00pm</p>
                                             </div>
                                         </div>
                                     </div>
