@@ -5,11 +5,8 @@ import Header from './layout/Header';
 import AppHeader from './layout/AppHeader';
 // import Footer from './layout/Footer';
 import Booking from './components/Booking/Booking';
+import BookingList from './components/Booking/BookingList';
 import Calendar from './components/Booking/Calendar';
-import ListPanding from './components/Booking/ListPanding';
-import ListToday from './components/Booking/ListToday';
-import ListUpcoming from './components/Booking/ListUpcoming';
-import ListCompleted from './components/Booking/ListCompleted';
 
 
 import {
@@ -56,10 +53,7 @@ class App extends React.Component {
                 <Route exact path={'/'} component={Booking}></Route>
                 <Route exact path={'/booking'} component={Booking}></Route>
                 <Route exact path={'/calendar'} component={Calendar}></Route>
-                <Route exact path={'/listpanding'} component={ListPanding}></Route>
-                <Route exact path={'/listtoday'} component={ListToday}></Route>
-                <Route exact path={'/listupcoming'} component={ListUpcoming}></Route>
-                <Route exact path={'/listcompleted'} component={ListCompleted}></Route>
+                <Route exact path={'/booking-listing'} component={BookingList}></Route>
               </Switch>
             </div>
           </div>

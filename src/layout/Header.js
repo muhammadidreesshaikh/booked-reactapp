@@ -30,10 +30,7 @@ function Header() {
                                  <ul>
                                     <li><Link to={'/booking'}>Booking</Link></li>
                                     <li><Link to={'/calendar'}>Calendar</Link></li>
-                                    <li><Link to={'/listpanding'}>List Panding</Link></li>
-                                    <li><Link to={'/listtoday'}>List Today</Link></li>
-                                    <li><Link to={'/listupcoming'}>List Upcoming</Link></li>
-                                    <li><Link to={'/listcompleted'}>List Completed</Link></li>
+                                    <li><Link to={'/booking-listing'}>Booking List</Link></li>
                                  </ul>
                             </div>
                         </div>
