@@ -28,7 +28,6 @@ function Header() {
                         <div className="col-sm-8 col-md-8 col-lg-8">
                             <div className="nav">
                                  <ul>
-                                    <li><Link to={'/home'}>Home</Link></li>
                                     <li><Link to={'/booking'}>Booking</Link></li>
                                     <li><Link to={'/calendar'}>Calendar</Link></li>
                                     <li><Link to={'/listpanding'}>List Panding</Link></li>
@@ -48,9 +47,7 @@ function Header() {
                             <a href="#"><i class="fas fa-dice-d20"></i></a>
                         </div>
                     </div>
-1
 
-                    <li><Link to={'/home'} onClick={() => setMenuToggle(!menuToggle)}>Home</Link></li>
                     <li><Link to={'/booking'} onClick={() => setMenuToggle(!menuToggle)}>Booking</Link></li>
                     <li><Link to={'/calendar'} onClick={() => setMenuToggle(!menuToggle)}>Calendar</Link></li>
                     <li><Link to={'/listpanding'} onClick={() => setMenuToggle(!menuToggle)}>ListPanding</Link></li>

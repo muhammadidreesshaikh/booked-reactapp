@@ -4,7 +4,6 @@ import './App.css';
 import Header from './layout/Header';
 import AppHeader from './layout/AppHeader';
 // import Footer from './layout/Footer';
-import Home from './components/Home';
 import Booking from './components/Booking/Booking';
 import Calendar from './components/Booking/Calendar';
 import ListPanding from './components/Booking/ListPanding';
@@ -54,8 +53,7 @@ class App extends React.Component {
               <AppHeader />
 
               <Switch>
-                <Route exact path={'/'} component={Home}></Route>
-                <Route exact path={'/home'} component={Home}></Route>
+                <Route exact path={'/'} component={Booking}></Route>
                 <Route exact path={'/booking'} component={Booking}></Route>
                 <Route exact path={'/calendar'} component={Calendar}></Route>
                 <Route exact path={'/listpanding'} component={ListPanding}></Route>

@@ -35,19 +35,6 @@ class ListPanding extends React.Component {
                     <div className="container">
                         <div className="row">
 
-                            <div className="col-12">
-                                <div className="col-12 col-md-6 col-lg-6">
-                                    <div className="row center">
-                                        <div class="btn-group" role="group">
-                                            <button type="button" class="bg-primary btn btn-secondary px-3">PENDING <span>3</span> </button>
-                                            <button type="button" class="btn btn-secondary px-3">TODAY <span>6</span> </button>
-                                            <button type="button" class="btn btn-secondary px-3">UPCOMING <span>8</span> </button>
-                                            <button type="button" class="btn btn-secondary px-3">COMPLETED <span>3</span> </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                             <div className="col-12 col-md-12 col-lg-12">
                                 <div className="row bar">
                                     <div className="col-12 col-md-6 col-lg-6">
