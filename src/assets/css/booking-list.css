@@ -1,0 +1,95 @@
+.list .bar{
+    background-color: #32373d;
+    padding: 8px 0;
+}
+
+.list .bar h5{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.list .main{
+    /* padding: 15px 0; */
+}
+
+.list .main .booking-details{
+    padding: 14px 0;
+}
+
+.list .main .booking-details img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.list .main .booking-details h6{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.list .main .booking-details a{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.list .main .buttons{
+    float: right;
+    padding: 14px 0;
+    visibility: hidden;
+}
+
+.main:hover .buttons{
+    visibility: visible;
+}
+
+.list .main .buttons a{
+    color: #f92a2a;
+    font-size: 14px;
+    padding: 7px 10px 0px 0;
+}
+
+.date-time{
+    float: right;
+    width: 100%;
+}
+
+.date-time .grey{
+    background-color: #e6e6e6;
+}
+
+.date-time .green {
+    background-color: #34c2a6;
+}
+
+.date-time .orange {
+    background-color: #fdebb9;
+}
+
+.date-time .blue {
+    background-color: #247fde;
+}
+
+.date-time .missed span {
+    color: #f92a2a;
+}
+
+.date-time .green .schedule, .date-time .blue .schedule {
+    color: #ffffff;
+}
+
+.date-time .green span, .date-time .blue span {
+    color: #ffffff;
+}
+
+.date-time span{
+    font-weight: bold;
+}
+
+.date-time p{
+    color: gray;
+    font-size: 15px;
+}
