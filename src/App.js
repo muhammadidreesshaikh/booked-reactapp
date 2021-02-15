@@ -7,6 +7,7 @@ import AppHeader from './layout/AppHeader';
 import Booking from './components/Booking/Booking';
 import BookingList from './components/Booking/BookingList';
 import Calendar from './components/Booking/Calendar';
+import BookingDetails from './components/Booking/SideModal/BookingDetails';
 
 
 import {
@@ -54,6 +55,7 @@ class App extends React.Component {
                 <Route exact path={'/booking'} component={Booking}></Route>
                 <Route exact path={'/calendar'} component={Calendar}></Route>
                 <Route exact path={'/booking-listing'} component={BookingList}></Route>
+                <Route exact path={'/booking-details'} component={BookingDetails}></Route>
               </Switch>
             </div>
           </div>

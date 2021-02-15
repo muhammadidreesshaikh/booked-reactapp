@@ -2,6 +2,7 @@ import React from 'react';
 import '../../assets/css/booking-list.css';
 
 import image from '../../assets/img/img.png'
+import BookingDetails from './SideModal/BookingDetails';
 
 class BookingList extends React.Component {
 
@@ -46,13 +47,22 @@ class BookingList extends React.Component {
                     status: "missed"
                 }
             ],
-            loading: false
+            loading: false,
+            side: false
+
         };
     }
 
     componentDidMount() {
         this.setState({
             loading: true
+        });
+    }
+
+    SideToggle = () => {
+        let status = !this.state.side;
+        this.setState({
+            side: status
         });
     }
 
@@ -89,7 +99,7 @@ class BookingList extends React.Component {
                                                             </div>
 
                                                             <div className="col-md-8">
-                                                                <h6>{item.name}</h6>
+                                                                <h6 onClick={() => this.SideToggle() }>{item.name}</h6>
                                                                 <a href="#">{item.serviceName}</a>
                                                             </div>
                                                         </div>
@@ -98,7 +108,7 @@ class BookingList extends React.Component {
 
                                                 <div className="col-12 col-md-6 col-lg-6">
                                                     <div className="buttons">
-                                                        <a href="#">Cancle Booking</a>
+                                                        <a href="#">Cancel Booking</a>
                                                         <button type="button" class="btn btn-primary px-3">Approve</button>
                                                     </div>
                                                 </div>
@@ -124,6 +134,72 @@ class BookingList extends React.Component {
                             }
 
                         </div>
+                    </div>
+                </div>
+
+                {/* <BookingDetails/> */}
+
+                <div className="col-12 col-md-12 col-lg-12">
+                    <div className={this.state.side == true ? "side open" : "side"}>
+
+                        <div className="profile">
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <img src={image} />
+                                </div>
+
+                                <div className="col-md-8">
+                                    <div className="heading float-left">
+                                        <h2>Joe Smith</h2>
+                                        <h6>Meeting Rooms</h6>
+                                        <p>Booking #9827</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bar-section pt-5">
+                            <div className="row">
+
+                                <div className="col-md-4">
+                                    <a>Booking</a>
+                                </div>
+
+                                <div className="col-md-4">
+                                    <a>Customer</a>
+                                </div>
+
+                                <div className="col-md-4">
+                                    <a>Payments</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div className="form pt-3">
+                            <div className="container">
+
+                                <div className="col-md-12">
+                                    <div className="input">
+                                        <i class="fas fa-calendar-week"></i> <input type="text" placeholder="May 25, 2020"/> <a href="#">Change</a>
+                                    </div>
+
+                                    <div className="input mt-3">
+                                        <i class="far fa-clock"></i> <input type="text" placeholder="Room Name / 01:00pm - 12:00pm"/> <a href="#">Change</a>
+                                    </div>
+                                </div>
+
+                                <div className="col-md-12">
+                                    
+                                </div>
+
+                                <div className="col-md-12">
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

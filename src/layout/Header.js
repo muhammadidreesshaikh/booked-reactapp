@@ -31,6 +31,7 @@ function Header() {
                                     <li><Link to={'/booking'}>Booking</Link></li>
                                     <li><Link to={'/calendar'}>Calendar</Link></li>
                                     <li><Link to={'/booking-listing'}>Booking List</Link></li>
+                                    <li><Link to={'/booking-details'}>Booking Details</Link></li>
                                  </ul>
                             </div>
                         </div>
@@ -51,6 +52,7 @@ function Header() {
                     <li><Link to={'/listtoday'} onClick={() => setMenuToggle(!menuToggle)}>List Today</Link></li>
                     <li><Link to={'/listupcoming'} onClick={() => setMenuToggle(!menuToggle)}>List Upcoming</Link></li>
                     <li><Link to={'/listcompleted'} onClick={() => setMenuToggle(!menuToggle)}>List Completed</Link></li>
+                    <li><Link to={'/booking-details'} onClick={() => setMenuToggle(!menuToggle)}>Booking Details</Link></li>
                 </div>
             </div>
         </div>

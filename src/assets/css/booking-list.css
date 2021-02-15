@@ -28,6 +28,7 @@
 .list .main .booking-details h6{
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -93,3 +94,18 @@
     color: gray;
     font-size: 15px;
 }
+
+/* .side{
+    position: fixed;
+    right: -100%;
+    background-color: aqua;
+    width: 40%;
+    height: 100vh;
+    z-index: 1;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.side.open{
+    right: 0;
+} */

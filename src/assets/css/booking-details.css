@@ -1,0 +1,110 @@
+.side{
+    position: fixed;
+    padding: 3% 0px;
+    right: -100%;
+    background-color: white;
+    width: 40%;
+    height: 100vh;
+    z-index: 1;
+    bottom: 0;
+    transition: 0.5s;
+    box-shadow: 3px 3px 10px #a7a7a7;
+}
+
+.side.open{
+    right: 0;
+    
+}
+
+.side .profile{
+
+}
+
+.side .profile img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.side .profile h2{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.side .profile h6{
+    color: #007bff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.side .profile p{
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+.side .bar-section{
+    border-bottom: 2px solid #cecece;
+}
+
+.side .bar-section a{
+    display: block;
+    text-align: center;
+    border-bottom: 4px solid transparent;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.side .bar-section a:hover{
+    border-bottom: 4px solid #007bff;
+    transition: 0.5s;
+    
+}
+
+.side .bar-section a:hover{
+    border-bottom: 4px solid #007bff;
+    transition: 0.5s;
+    
+}
+
+.side .form{
+     
+}
+
+.side .form .input{
+     position: relative;
+}
+
+.side .form .input i{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #007bff;
+}
+
+.side .form .input input
+{
+    background-color: #f1f1f1;
+    color: var(--color-black);
+    border-radius: 5px;
+    padding: 8px 0 8px 35px;
+    border: 1px solid #c3c3c3;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+.side .form .input input::placeholder
+{
+    color: black;
+    font-weight: bold;
+}
+
+.side .form .input a{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #007bff;
+    font-size: 14px;
+}
