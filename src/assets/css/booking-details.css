@@ -73,7 +73,7 @@
 }
 
 .side .form .input{
-     position: relative;
+    position: relative;
 }
 
 .side .form .input i{
@@ -97,8 +97,7 @@
 
 .side .form .input input::placeholder
 {
-    color: black;
-    font-weight: bold;
+    color: rgb(155, 155, 155);
 }
 
 .side .form .input a{
@@ -108,3 +107,71 @@
     color: #007bff;
     font-size: 14px;
 }
+
+.side .form .name
+{
+    position: relative;
+}
+
+.side .form .name input
+{
+    background-color: #ffffff;
+    color: var(--color-black);
+    border-radius: 5px;
+    padding: 8px 0 8px 10px;
+    border: 1px solid #b4b4b4;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+.side .form .name input::placeholder
+{
+    color: rgb(155, 155, 155);
+}
+
+.side .form .name a{
+    position: absolute;
+    top: 35px;
+    font-weight: 900;
+    right: 10px;
+    color: #007bff;
+    font-size: 18px
+}
+
+.side .form .label{
+
+}
+
+.side .form .label span{
+    background-color: #247fde;
+    color: white;
+    padding: 0px 0px;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.side .form .label p{
+    font-size: 13px;
+    color: gray;
+    padding-top: 3px;
+}
+
+.side .form .metting-needs{
+    
+}
+
+.side .form .metting-needs h6{
+    
+}
+
+.side .form .metting-needs p{
+    
+}
+/* 
+.side .form .metting-needs{
+    
+} */
