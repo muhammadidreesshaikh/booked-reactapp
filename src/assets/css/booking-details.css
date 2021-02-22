@@ -1,6 +1,6 @@
 .side{
     position: fixed;
-    padding: 3% 0px;
+    padding: 2% 0px;
     right: -100%;
     background-color: white;
     width: 40%;
@@ -160,18 +160,26 @@
     padding-top: 3px;
 }
 
-.side .form .metting-needs{
-    
+.metting-needs{
+    text-align: left;
 }
 
-.side .form .metting-needs h6{
-    
+.metting-needs h6{
+    font-weight: bold;
+    font-size: 15px;
 }
 
-.side .form .metting-needs p{
-    
+.metting-needs p{
+    color: #969595;
+    font-size: 13px;
 }
-/* 
-.side .form .metting-needs{
-    
-} */
+
+.metting-needs .form-group{
+    margin-bottom: 0;
+}
+
+.metting-needs .form-check-label {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 13px;
+}
