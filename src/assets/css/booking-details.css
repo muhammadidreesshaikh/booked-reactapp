@@ -13,11 +13,6 @@
 
 .side.open{
     right: 0;
-    
-}
-
-.side .profile{
-
 }
 
 .side .profile img{
@@ -28,18 +23,22 @@
     object-position: center;
 }
 
-.side .profile h2{
+.side .heading {
+   float: left;
+}
+
+.side .heading h2{
     font-weight: bold;
     font-size: 17px;
 }
 
-.side .profile h6{
+.side .heading h6{
     color: #007bff;
     font-weight: bold;
     font-size: 16px;
 }
 
-.side .profile p{
+.side .heading p{
     color: #8e8e8e;
     font-size: 14px;
 }
@@ -54,6 +53,7 @@
     border-bottom: 4px solid transparent;
     font-weight: bold;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .side .bar-section a:hover{
@@ -66,10 +66,6 @@
     border-bottom: 4px solid #007bff;
     transition: 0.5s;
     
-}
-
-.side .form{
-     
 }
 
 .side .form .input{
@@ -80,6 +76,14 @@
     position: absolute;
     top: 10px;
     left: 10px;
+    color: #007bff;
+}
+
+.side .form label{
+    margin-bottom: 0;
+    float: left;
+    font-weight: bold;
+    font-size: 11px;
     color: #007bff;
 }
 
@@ -132,15 +136,11 @@
 
 .side .form .name a{
     position: absolute;
-    top: 35px;
+    top: 40px;
     font-weight: 900;
     right: 10px;
     color: #007bff;
     font-size: 18px
-}
-
-.side .form .label{
-
 }
 
 .side .form .label span{
@@ -183,3 +183,111 @@
     font-weight: bold;
     font-size: 13px;
 }
+
+.form-customer .input{
+    position: relative;
+}
+
+.form-customer .input i{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #007bff;
+}
+
+.form-customer .input input
+{
+    background-color: #f1f1f1;
+    color: var(--color-black);
+    border-radius: 5px;
+    padding: 8px 0 8px 35px;
+    border: 1px solid #c3c3c3;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+.form-customer .input input::placeholder
+{
+    color: rgb(155, 155, 155);
+}
+
+.form-customer .input a{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #007bff;
+    font-size: 14px;
+}
+
+.form-customer .name
+{
+    position: relative;
+}
+
+.form-customer .name label{
+    margin-bottom: 0;
+    float: left;
+    font-weight: bold;
+    font-size: 11px;
+    color: #007bff;
+}
+
+.form-customer .name input
+{
+    background-color: #ffffff;
+    color: var(--color-black);
+    border-radius: 5px;
+    padding: 8px 0 8px 10px;
+    border: 1px solid #b4b4b4;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+.form-customer .name input::placeholder
+{
+    color: rgb(155, 155, 155);
+}
+
+.form-customer .name a{
+    position: absolute;
+    top: 38px;
+    font-weight: 900;
+    right: 10px;
+    color: #007bff;
+    font-size: 20px;
+}
+
+.customer-button{
+    margin-top: 20%;
+}
+
+.payments-button{
+    margin-top: 50%;
+}
+
+
+/* menu desktop and mobile switching on responsive  */
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .side{
+        top: 80px;
+        padding: 5% 0px;
+    }
+
+    .side.open{
+        right: 45px;
+        width: 87%;
+    }
+
+    .side .heading{
+        float: unset;
+        padding-top: 3%;
+    }
+}
+

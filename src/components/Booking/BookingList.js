@@ -61,6 +61,7 @@ class BookingList extends React.Component {
 
     SideToggle = () => {
         let status = !this.state.side;
+
         this.setState({
             side: status
         });
@@ -75,11 +76,11 @@ class BookingList extends React.Component {
 
                             <div className="col-12 col-md-12 col-lg-12">
                                 <div className="row bar">
-                                    <div className="col-12 col-md-6 col-lg-6">
+                                    <div className="col-6 col-md-6 col-lg-6">
                                         <h5 className="float-left">BOOKING DETAILS</h5>
                                     </div>
 
-                                    <div className="col-12 col-md-6 col-lg-6">
+                                    <div className="col-6 col-md-6 col-lg-6">
                                         <h5 className="float-right">DATE / TIME</h5>
                                     </div>
                                 </div>
@@ -139,7 +140,11 @@ class BookingList extends React.Component {
 
                 <div className="col-12 col-md-12 col-lg-12">
                     <div className={this.state.side == true ? "side open" : "side"}>
-                        <BookingDetails/>
+                        <div className="close-btn">
+                            <a onClick={() => this.SideToggle() }><i class="fas fa-times"></i></a>
+                        </div>
+
+                        <BookingDetails />
                     </div>
                 </div>
             </div>

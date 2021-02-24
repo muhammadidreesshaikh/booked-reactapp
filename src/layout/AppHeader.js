@@ -46,7 +46,7 @@ class AppHeader extends React.Component {
 
                                     <div className="col-12 col-md-4 col-lg-4">
                                         <div className="row right">
-                                            <div className="col-md-7 px-0">
+                                            <div className="col-7 col-md-7 col-lg-7 px-0">
                                                 <select class="form-control">
                                                     <option selected>All Services</option>
                                                     <option value="1">All Payments</option>
@@ -54,7 +54,7 @@ class AppHeader extends React.Component {
                                                 </select>
                                             </div>
 
-                                            <div className="col-md-4 px-0">
+                                            <div className="col-4 col-md-4 col-lg-4 px-0">
                                                 <div className="icon">
                                                     <a href="#"><i class="far fa-calendar-alt btn-primary mr-2"></i></a>
                                                     <a href="#"><i class="fas fa-plus btn-secondary"></i></a>

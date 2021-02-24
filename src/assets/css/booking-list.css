@@ -95,17 +95,33 @@
     font-size: 15px;
 }
 
-/* .side{
-    position: fixed;
-    right: -100%;
-    background-color: aqua;
-    width: 40%;
-    height: 100vh;
-    z-index: 1;
-    bottom: 0;
-    transition: 0.5s;
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
 }
 
-.side.open{
-    right: 0;
-} */
+.close-btn a i{
+    font-size: 25px;
+    color: #007bff;
+}
+
+
+
+
+/* menu desktop and mobile switching on responsive  */
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .list .main .booking-details {
+        padding: 25px 0 0 0;
+    }
+
+    .list .main .buttons{
+        float: unset;
+    }
+}

@@ -22,12 +22,29 @@
     justify-content: flex-end;
 }
 
-.app-header .right .icon a{
-
-}
-
 .app-header .right .icon i{
     padding: 10px;
     border-radius: 20px;
     font-size: 15px;
+}
+
+
+/* menu desktop and mobile switching on responsive  */
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .app-header .top {
+        padding: 20px 0;
+    }
+
+    .app-header .top .right{
+        padding-top: 5%;
+    }
+
+    .form-control{
+        width: 100%;
+    }
 }
