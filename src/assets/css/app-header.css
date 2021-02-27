@@ -27,10 +27,6 @@
     justify-content: flex-end;
 }
 
-.app-header .top button:hover{
-    background-color: #15c09e;
-}
-
 .app-header .right .icon i{
     padding: 10px;
     border-radius: 20px;
@@ -70,10 +66,6 @@
         text-align: center;
         padding: 13px;
         text-decoration: none;
-    }
-
-    .app-header .top button:hover{
-        background-color: #15c09e;
     }
 }
 
