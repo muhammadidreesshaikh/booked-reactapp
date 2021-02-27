@@ -1,7 +1,7 @@
 {
   "name": "booked-react-app",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "https://booked-react-app.herokuapp.com/",
   "private": true,
   "dependencies": {
     "@fullcalendar/daygrid": "^5.5.0",
