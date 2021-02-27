@@ -1,7 +1,5 @@
 import React from 'react';
 import '../../assets/css/booking-list.css';
-
-import image from '../../assets/img/img.png'
 import BookingDetails from './SideModal/BookingDetails';
 
 class BookingList extends React.Component {
@@ -13,6 +11,7 @@ class BookingList extends React.Component {
             data: [
                 {
                     id: 0,
+                    image: 'https://www.urbanpedaltours.com/wp-content/uploads/2019/04/team.png',
                     name: "David Wigfeild",
                     serviceName: "Service Name Here",
                     schedule: "1:00-2:00pm",
@@ -20,6 +19,7 @@ class BookingList extends React.Component {
                 },
                 {
                     id: 1,
+                    image: 'https://www.urbanpedaltours.com/wp-content/uploads/2019/04/team.png',
                     name: "Sarah Young",
                     serviceName: "Service Name Here",
                     schedule: "1:00-2:00pm",
@@ -27,6 +27,7 @@ class BookingList extends React.Component {
                 },
                 {
                     id: 2,
+                    image: 'https://www.urbanpedaltours.com/wp-content/uploads/2019/04/team.png',
                     name: "Wesley Tolls",
                     serviceName: "Service Name Here",
                     schedule: "1:00-2:00pm",
@@ -34,6 +35,7 @@ class BookingList extends React.Component {
                 },
                 {
                     id: 3,
+                    image: 'https://www.urbanpedaltours.com/wp-content/uploads/2019/04/team.png',
                     name: "Brad Franklin",
                     serviceName: "Service Name Here",
                     schedule: "1:00-2:00pm",
@@ -41,6 +43,7 @@ class BookingList extends React.Component {
                 },
                 {
                     id: 4,
+                    image: 'https://www.urbanpedaltours.com/wp-content/uploads/2019/04/team.png',
                     name: "Lucas Greg",
                     serviceName: "Service Name Here",
                     schedule: "1:00-2:00pm",
@@ -96,7 +99,7 @@ class BookingList extends React.Component {
                                                     <div className="booking-details">
                                                         <div className="row">
                                                             <div className="col-md-4">
-                                                                <img src={image} />
+                                                                <img src={item.image} />
                                                             </div>
 
                                                             <div className="col-md-8">

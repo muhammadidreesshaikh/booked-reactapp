@@ -10,7 +10,7 @@ import Calendar from './components/Booking/Calendar';
 
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   Redirect
