@@ -50,10 +50,17 @@ class App extends React.Component {
               <AppHeader />
 
               <Switch>
-                <Route exact path={'/'} component={Booking}></Route>
-                <Route exact path={'/booking'} component={Booking}></Route>
-                <Route exact path={'/calendar'} component={Calendar}></Route>
-                <Route exact path={'/booking-listing'} component={BookingList}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/booked-react-app'}>
+                  <Redirect to={process.env.PUBLIC_URL + '/booking'} />
+                </Route>
+  
+                <Route exact path="/">
+                  <Redirect to={process.env.PUBLIC_URL + '/booking'} />
+                </Route>
+
+                <Route exact path={process.env.PUBLIC_URL + '/booking'} component={Booking}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/calendar'} component={Calendar}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/booking-listing'} component={BookingList}></Route>
               </Switch>
             </div>
           </div>

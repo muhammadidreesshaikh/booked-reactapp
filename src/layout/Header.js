@@ -28,9 +28,9 @@ function Header() {
                         <div className="col-sm-8 col-md-8 col-lg-8">
                             <div className="nav">
                                  <ul>
-                                    <li><Link to={'/booking'}>Booking</Link></li>
-                                    <li><Link to={'/calendar'}>Calendar</Link></li>
-                                    <li><Link to={'/booking-listing'}>Booking List</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/booking'}>Booking</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/calendar'}>Calendar</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/booking-listing'}>Booking List</Link></li>
                                  </ul>
                             </div>
                         </div>
@@ -45,9 +45,9 @@ function Header() {
                         </div>
                     </div>
 
-                    <li><Link to={'/booking'} onClick={() => setMenuToggle(!menuToggle)}>Booking</Link></li>
-                    <li><Link to={'/calendar'} onClick={() => setMenuToggle(!menuToggle)}>Calendar</Link></li>
-                    <li><Link to={'/booking-listing'} onClick={() => setMenuToggle(!menuToggle)}>Booking List</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/booking'} onClick={() => setMenuToggle(!menuToggle)}>Booking</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/calendar'} onClick={() => setMenuToggle(!menuToggle)}>Calendar</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/booking-listing'} onClick={() => setMenuToggle(!menuToggle)}>Booking List</Link></li>
                 </div>
             </div>
         </div>
