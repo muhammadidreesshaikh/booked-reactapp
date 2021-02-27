@@ -167,6 +167,7 @@
 .metting-needs h6{
     font-weight: bold;
     font-size: 15px;
+    padding-top: 10px;
 }
 
 .metting-needs p{
@@ -270,7 +271,11 @@
 
 /* menu desktop and mobile switching on responsive  */
 @media only screen and (max-width: 768px) {
-    
+    .side{
+        padding: 5% 0px;
+        width: 55%;
+        height: 93vh;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -281,13 +286,19 @@
     }
 
     .side.open{
-        right: 45px;
-        width: 87%;
+        right: 0;
+        width: 97%;
     }
 
     .side .heading{
         float: unset;
         padding-top: 3%;
+    }
+
+    .metting-needs h6{
+        font-weight: bold;
+        font-size: 15px;
+        padding-top: 10px;
     }
 }
 
