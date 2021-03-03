@@ -37,7 +37,7 @@ class AppHeader extends React.Component {
                                     <div className="col-12 col-md-6 col-lg-6">
                                         <div className="row center">
                                             <div class="btn-group" role="group">
-                                                <button type="button" class="bg-primary btn btn-secondary px-3">PENDING <span>3</span> </button>
+                                                <button type="button" class="btn btn-secondary px-3">PENDING <span>3</span> </button>
                                                 <button type="button" class="btn btn-secondary px-3">TODAY <span>6</span> </button>
                                                 <button type="button" class="btn btn-secondary px-3">UPCOMING <span>8</span> </button>
                                                 <button type="button" class="btn btn-secondary px-3">COMPLETED <span>3</span> </button>
