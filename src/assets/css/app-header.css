@@ -21,6 +21,7 @@
 .app-header .top .center{
     font-size: 20px;
     font-weight: bold;
+    padding-top: 5px;
 }
 
 .app-header .top .center button{

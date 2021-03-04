@@ -88,7 +88,7 @@ function  BookingDetails() {
                             </div>
 
                             <div className="col-md-12">
-                                <div className="name pt-1">
+                                <div className="name pt-3">
                                     <input type="text" placeholder="Metting Description (optional)"/>
                                 </div>
                             </div>
