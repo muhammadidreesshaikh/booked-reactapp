@@ -60,6 +60,10 @@
     justify-content: flex-end;
 }
 
+.app-header .right .icon {
+    text-align: center;
+}
+
 .app-header .right .icon i{
     padding: 10px;
     border-radius: 20px;
@@ -128,11 +132,12 @@
 
 @media only screen and (max-width: 600px) {
     .app-header .top {
-        padding: 5% 3%;
+        padding: 5% 5%;
     }
 
     .app-header .top h2 {
-        font-size: 18px;
+        font-size: 20px;
+        text-align: center;
     }
 
     .app-header .top .left {

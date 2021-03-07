@@ -18,6 +18,7 @@
 .side .profile img{
     width: 70px;
     height: 70px;
+    float: right;
     border-radius: 50px;
     object-fit: cover;
     object-position: center;
@@ -146,12 +147,12 @@
 .side .form .label span{
     background-color: #247fde;
     color: white;
-    padding: 0px 0px;
+    padding: 0px 5px;
     border-radius: 30px;
     width: 20px;
     height: 20px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .side .form .label p{
@@ -272,9 +273,19 @@
 /* menu desktop and mobile switching on responsive  */
 @media only screen and (max-width: 768px) {
     .side{
-        padding: 5% 0px;
+        padding: 3% 0px;
         width: 55%;
-        height: 93vh;
+        height: 90vh;
+    }
+
+    .side .profile img{
+        float: right;
+    }
+
+    .side .form .label span{
+        padding: 2px 8px;
+        width: 25px;
+        height: 25px;
     }
 }
 

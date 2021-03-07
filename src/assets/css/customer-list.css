@@ -1,0 +1,120 @@
+.customer-list .bar{
+    background-color: #32373d;
+    padding: 8px 0;
+}
+
+.customer-list .bar h5{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.customer-list .main{
+    /* padding: 15px 0; */
+}
+
+.customer-list .main .booking-details{
+    padding: 14px 0;
+}
+
+.customer-list .main .booking-details img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.customer-list .main .booking-details h6{
+    font-size: 16px;
+    color: #2e7ff2;
+    padding-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.customer-list .main .booking-details p{
+    font-size: 12px;
+    color: #cdcdcd;
+}
+
+.customer-list .main .numbers{
+    float: right;
+    padding: 25px;
+}
+
+.customer-list .main .numbers h5{
+    font-size: 16px;
+    font-weight: bold;
+    color: #5b5b5b;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    
+}
+
+.close-btn a i{
+    font-size: 25px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+
+
+
+/* menu desktop and mobile switching on responsive  */
+@media only screen and (max-width: 768px) {
+    .customer-list .main .booking-details{
+        /* float: right; */
+    }
+
+    .customer-list .main .booking-details img{
+        /* float: unset; */
+    }
+
+    .customer-list .main .booking-details h6{
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .customer-list {
+        text-align: center;
+    }
+
+    .customer-list .main{
+        padding: 20px 0;
+    }
+
+    .customer-list .main .booking-details {
+        padding: 0px;
+        float: unset;
+    }
+
+    .customer-list .main .booking-details img{
+        float: unset;
+    }
+
+    .customer-list .main .booking-details h6{
+        padding-top: 5%;
+    }
+
+    .customer-list .main .numbers{
+        float: unset;
+        padding: 0px;
+    }
+
+    .customer-list .main .numbers h5{
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .customer-list .main .buttons{
+        float: unset;
+    }
+}

@@ -7,6 +7,7 @@ import AppHeader from './layout/AppHeader';
 import Booking from './components/Booking/Booking';
 import BookingList from './components/Booking/BookingList';
 import Calendar from './components/Booking/Calendar';
+import CustomerList from './components/Customers/CustomerList';
 
 
 import {
@@ -61,6 +62,7 @@ class App extends React.Component {
                 <Route exact path={process.env.PUBLIC_URL + '/booking'} component={Booking}></Route>
                 <Route exact path={process.env.PUBLIC_URL + '/calendar'} component={Calendar}></Route>
                 <Route exact path={process.env.PUBLIC_URL + '/booking-listing'} component={BookingList}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/customer-list'} component={CustomerList}></Route>
               </Switch>
             </div>
           </div>

@@ -1,0 +1,64 @@
+.side{
+    position: fixed;
+    padding: 1% 0px;
+    right: -100%;
+    background-color: white;
+    width: 40%;
+    height: 100vh;
+    z-index: 1;
+    bottom: 0;
+    transition: 0.5s;
+    box-shadow: 3px 3px 10px #a7a7a7;
+}
+
+.side.open{
+    right: 0;
+}
+
+.customer-form .name
+{
+
+}
+
+.customer-form .name input
+{
+    background-color: #ffffff;
+    color: var(--color-black);
+    border-radius: 5px;
+    padding: 8px 0 8px 10px;
+    border: 1px solid #b4b4b4;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+.customer-form .name input::placeholder
+{
+    color: rgb(155, 155, 155);
+}
+
+.customer-form .name a{
+    position: absolute;
+    bottom: 5px;
+    font-weight: 900;
+    right: 10px;
+    color: #007bff;
+    font-size: 18px
+}
+
+.customer-form .label span{
+    background-color: #247fde;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.customer-form .label p{
+    font-size: 13px;
+    color: gray;
+    padding-top: 3px;
+}

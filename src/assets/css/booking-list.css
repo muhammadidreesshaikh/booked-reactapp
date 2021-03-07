@@ -19,6 +19,7 @@
 
 .list .main .booking-details img{
     width: 50px;
+    float: right;
     height: 50px;
     border-radius: 50px;
     object-fit: cover;
@@ -60,22 +61,31 @@
 
 .date-time .grey{
     background-color: #e6e6e6;
+    text-align: center;
 }
 
 .date-time .green {
     background-color: #34c2a6;
+    text-align: center;
 }
 
 .date-time .orange {
     background-color: #fdebb9;
+    text-align: center;
 }
 
 .date-time .blue {
     background-color: #247fde;
+    text-align: center;
 }
 
-.date-time .missed span {
+.date-time .missed{
+    text-align: center;
+}
+
+.date-time .missed span{
     color: #f92a2a;
+    text-align: center;
 }
 
 .date-time .green .schedule, .date-time .blue .schedule {
@@ -113,13 +123,28 @@
 
 /* menu desktop and mobile switching on responsive  */
 @media only screen and (max-width: 768px) {
-    
+    .list .main .booking-details{
+        float: right;
+    }
+
+    .list .main .booking-details img{
+        float: unset;
+    }
 }
 
+
 @media only screen and (max-width: 600px) {
+    .list{
+        text-align: center;
+    }
 
     .list .main .booking-details {
         padding: 25px 0 0 0;
+        float: unset;
+    }
+
+    .list .main .booking-details h6{
+        padding-top: 5%;
     }
 
     .list .main .buttons{
