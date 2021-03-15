@@ -1,4 +1,4 @@
-.side{
+/* .side{
     position: fixed;
     padding: 1% 0px;
     right: -100%;
@@ -13,11 +13,26 @@
 
 .side.open{
     right: 0;
+} */
+
+.customer-form h4
+{
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .customer-form .name
 {
+    position: relative;
+}
 
+.customer-form .name label
+{
+    margin-bottom: 0;
+    float: left;
+    font-weight: bold;
+    font-size: 11px;
+    color: #007bff;
 }
 
 .customer-form .name input
@@ -29,7 +44,7 @@
     border: 1px solid #b4b4b4;
     width: 100%;
     height: auto;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .customer-form .name input::placeholder
@@ -46,19 +61,28 @@
     font-size: 18px
 }
 
-.customer-form .label span{
-    background-color: #247fde;
-    color: white;
-    padding: 0px 5px;
-    border-radius: 30px;
-    width: 20px;
-    height: 20px;
-    font-weight: bold;
-    font-size: 14px;
+.customer-form.form-group {
+    margin-bottom: 0;
 }
 
-.customer-form .label p{
+.customer-form .form-check-label{
     font-size: 13px;
-    color: gray;
-    padding-top: 3px;
+    font-weight: bold;
+}
+
+.customer-form .buttons{
+    margin-top: 25%;
+}
+
+
+
+
+/* menu desktop and mobile switching on responsive  */
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    
 }

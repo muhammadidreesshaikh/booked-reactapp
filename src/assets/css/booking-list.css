@@ -108,13 +108,13 @@
 .close-btn {
     position: absolute;
     top: 5px;
-    right: 5px;
+    right: 30px;
     
 }
 
 .close-btn a i{
     font-size: 25px;
-    color: #007bff;
+    color: black;
     cursor: pointer;
 }
 

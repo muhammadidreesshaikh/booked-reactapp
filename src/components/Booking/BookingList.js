@@ -5,6 +5,7 @@ import BookingDetails from './SideModal/BookingDetails';
 function BookingList() {
 
     const [side, SideToggle] = useState(false);
+    console.log(SideToggle);
     const [data, setData] = useState(
         [
             {
@@ -49,6 +50,8 @@ function BookingList() {
             }
         ]
     );
+
+    
 
     return (
         <div>

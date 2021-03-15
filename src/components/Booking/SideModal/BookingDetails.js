@@ -77,7 +77,7 @@ function  BookingDetails() {
 
                                 <div className="name mt-2">
                                     <label>MEETING TOPIC</label>
-                                    <input type="text" placeholder="2020 Financials" /> 
+                                    <input type="text" placeholder="2020 Financials" /> <a href="#">*</a>
                                 </div>
                                 
                                 <div className="label pt-2">

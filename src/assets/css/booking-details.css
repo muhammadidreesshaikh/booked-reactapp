@@ -137,7 +137,7 @@
 
 .side .form .name a{
     position: absolute;
-    top: 40px;
+    bottom: 3px;
     font-weight: 900;
     right: 10px;
     color: #007bff;
@@ -275,7 +275,7 @@
     .side{
         padding: 3% 0px;
         width: 55%;
-        height: 90vh;
+        height: 93vh;
     }
 
     .side .profile img{
@@ -299,6 +299,14 @@
     .side.open{
         right: 0;
         width: 97%;
+    }
+
+    .side .profile{
+        text-align: center;
+    }
+
+    .side .profile img{
+        float: unset;
     }
 
     .side .heading{
